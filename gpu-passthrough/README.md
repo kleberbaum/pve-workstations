@@ -158,7 +158,7 @@
 
 >Now your Proxmox host should be ready to passthrough GPUs!
 
-# Configuring the VM (Windows 10)
+## Configuring the VM (Windows 10)
 
 >Now comes the 'fun' part. It took me many, many different configuration attempts to get things *just right*. Hopefully my pain will be your gain, and help you get things done right, the first time around.
 
