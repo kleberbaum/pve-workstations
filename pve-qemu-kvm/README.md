@@ -1,4 +1,4 @@
-# pve-qemu-unlocked
+# pve-qemu-kvm
 
 Proxmox does not support anything other than `x86`/`x86_x64` even though `qemu` which is in it's backend supports to emulate MANY other CPU architectures.
 
@@ -10,14 +10,10 @@ This `Dockerfile` and `make` script will build your own version of `pve-qemu` an
 
 Since this is done with docker you need not worry about any other dependancies other than docker to build the DEB packages you need.
 
-# Features to Come
-- Setup Travis CI to serve builds to everyone without having to compile their own
-- Modifications to the UI to allow all other CPUs supported by `qemu`
-
-# Dependancies
+## Dependancies
 - Docker
 
-# Build DEB Packages
+## Build DEB Packages
 ```bash
 git clone https://github.com/lillypad/pve-qemu-unlocked.git
 cd pve-qemu-unlocked/
@@ -28,7 +24,7 @@ __NOTE:__ If you do not specify `-j#` in the `Dockerfile` the build will take up
 
 `DEB` files will be stored in `bin/`
 
-# Installation
+## Installation
 
 There will be a debug as well as a regular build.
 
