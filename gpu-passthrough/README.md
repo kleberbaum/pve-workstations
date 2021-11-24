@@ -306,13 +306,13 @@
 >  
 >Sometimes just installing the plain NVIDIA drivers will throw an error (something about being unable to install the drivers). In this case, you'll have to install using NVIDIA's crappy ***GeForce Experience(tm)*** installer. It sucks because you have to create an account and all that, but your driver installation should work after that.
 
-# Congratulations!
+## Congratulations!
 
 >After a reboot or two, you should now be able to see NVIDIA Control Panel installed in your Windows VM, as well as Device Manager showing no Code 43 Errors on your GPU(s). Pat yourself on the back, do some jumping jacks, order a cake! You've done it!
 
 [Multi-GPU Passthrough, it CAN be done!](https://preview.redd.it/uno4j21l4ko21.png?width=1954&format=png&auto=webp&s=25835d12b7c1e196200cd748d824292b23e62ca1)
 
-# Credits / Resources / Citations
+## Credits / Resources / Citations
 
 1. [https://pve.proxmox.com/wiki/Pci\_passthrough](https://pve.proxmox.com/wiki/Pci_passthrough)
 2. [https://forum.proxmox.com/threads/gpu-passthrough-tutorial-reference.34303/](https://forum.proxmox.com/threads/gpu-passthrough-tutorial-reference.34303/)
