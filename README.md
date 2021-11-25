@@ -12,11 +12,6 @@ Run `pveupdate` and `pveupgrade`, then reboot.
 
 https://github.com/ayufan/pve-helpers/
 
-## Install Windows 11
-
-https://dannyda.com/2021/10/08/how-to-install-windows-11-on-proxmox-ve-pve-without-workarounds/
-
-
 ## Windows Gaming VM
 
 - nvidia fix
